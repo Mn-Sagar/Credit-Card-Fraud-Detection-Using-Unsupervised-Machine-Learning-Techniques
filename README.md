@@ -1,0 +1,3 @@
+# Credit-Card-Fraud-Detection-Using-Unsupervised-Machine-Learning
+
+To detect fraudulent transaction i used Outlier/Anomaly detection algorithms such as [Local Outlier factor](https://en.wikipedia.org/wiki/Local_outlier_factor) and [Isolation Forest](https://towardsdatascience.com/outlier-detection-with-isolation-forest-3d190448d45e) algorithm.Dataset can be download from [here](https://www.kaggle.com/jacklizhi/creditcard) . In our dataset most of the transaction are labeled as non-fraudulent transaction , so in the dataset the oultliers are fraudulent transaction. Since the data has 2848037 data, to reduce computitional complexity and run time i use only 10% of original data. So the accuracy was not up to the mark. 
